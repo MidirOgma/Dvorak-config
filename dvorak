@@ -3,28 +3,30 @@ xkb_symbols "basic" {
 
     name[Group1]= "Custom Dvorak Layout";
 
-    key <TLDE> { [ dollar, asciitilde, dead_tilde, dead_tilde  ] };
-    key <AE01> { [ ampersand,     1,              exclamdown,             onesuperior ] };
+    //             base           shift           Alt-Gr                  Shift Alt-Gr
+
+    key <TLDE> { [ dollar,        asciitilde,     EuroSign,               dead_cedilla  ] };
+    key <AE01> { [ ampersand,     1,              guillemotleft,          guillemotright ] };
     key <AE02> { [ bracketleft,   2,              twosuperior,            dead_doubleacute ] };
     key <AE03> { [ braceleft,     3,              threesuperior,          dead_macron ] };
     key <AE04> { [ parenleft,     4,              currency,               sterling ] };
-    key <AE05> { [ equal,         5,              EuroSign,               dead_cedilla ] };
+    key <AE05> { [ equal,         5,              multiply,               division ] };
     key <AE06> { [ plus,          6,              onequarter,             asciicircum ] };
     key <AE07> { [ asterisk,      7,              onehalf,                dead_horn ] };
     key <AE08> { [ parenright,    8,              threequarters,          dead_ogonek ] };
     key <AE09> { [ braceright,    9,              leftsinglequotemark,    dead_breve ] };
     key <AE10> { [ parenright,    0,              rightsinglequotemark,   dead_abovering ] };
-    key <AE11> { [ exclam,        percent,        guillemotleft,          leftdoublequotemark ] };
-    key <AE12> { [ bracketright,  braceright,     guillemotright,         rightdoublequotemark ] };
+    key <AE11> { [ exclam,        percent,        exclamdown,             leftdoublequotemark ] };
+    key <AE12> { [ bracketright,  braceright,     onesuperior,            rightdoublequotemark ] };
 
     key <AD01> { [ semicolon,     colon,          apostrophe,             quotedbl ] };
-    key <AD02> { [ comma,         backslash,      ccedilla,               Ccedilla ] };
+    key <AD02> { [ comma,         backslash,      copyright,              Ccedilla ] };
     key <AD03> { [ period,        greater,        dead_abovedot,          dead_caron ] };
     key <AD04> { [ p,             P,              odiaeresis,             Odiaeresis ] };
     key <AD05> { [ y,             Y,              udiaeresis,             Udiaeresis ] };
     key <AD06> { [ f,             F,              ediaeresis,             Ediaeresis ] };
     key <AD07> { [ g,             G,              g,                      G ] };
-    key <AD08> { [ c,             C,              copyright,              cent ] };
+    key <AD08> { [ c,             C,              ccedilla,               cent ] };
     key <AD09> { [ r,             R,              registered,             trademark ] };
     key <AD10> { [ l,             L,              oslash,                 Oslash ] };
     key <AD11> { [ slash,         question,       questiondown,           dead_hook ] };
@@ -42,7 +44,7 @@ xkb_symbols "basic" {
     key <AC10> { [ s,             S,              ssharp,                 section ] };
     key <AC11> { [ minus,         underscore,     yen,                    dead_belowdot ] };
  
-    key <AB01> { [ semicolon,     colon,          paragraph,              degree ] };
+    key <AB01> { [ apostrophe,    quotedbl,       paragraph,              degree ] };
     key <AB02> { [ q,             Q,              adiaeresis,             Adiaeresis ] };
     key <AB03> { [ j,             J,              idiaeresis,             Idiaeresis ] };
     key <AB04> { [ k,             K,              oe,                     OE ] };
