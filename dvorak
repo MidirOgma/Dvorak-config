@@ -17,7 +17,7 @@ xkb_symbols "basic" {
     key <AE09> { [ braceright,    9,              leftsinglequotemark,    dead_breve ] };
     key <AE10> { [ parenright,    0,              rightsinglequotemark,   dead_abovering ] };
     key <AE11> { [ exclam,        percent,        exclamdown,             leftdoublequotemark ] };
-    key <AE12> { [ bracketright,  braceright,     onesuperior,            rightdoublequotemark ] };
+    key <AE12> { [ numbersign,    grave,     onesuperior,            rightdoublequotemark ] };
 
     key <AD01> { [ semicolon,     colon,          apostrophe,             quotedbl ] };
     key <AD02> { [ comma,         backslash,      copyright,              Ccedilla ] };
