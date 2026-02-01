@@ -17,11 +17,11 @@ xkb_symbols "basic" {
     key <AE09> { [ braceright,    9,              leftsinglequotemark,    dead_breve ] };
     key <AE10> { [ parenright,    0,              rightsinglequotemark,   dead_abovering ] };
     key <AE11> { [ exclam,        percent,        exclamdown,             leftdoublequotemark ] };
-    key <AE12> { [ numbersign,    grave,     onesuperior,            rightdoublequotemark ] };
+    key <AE12> { [ numbersign,    grave,          onesuperior,            rightdoublequotemark ] };
 
     key <AD01> { [ semicolon,     colon,          apostrophe,             quotedbl ] };
     key <AD02> { [ comma,         backslash,      copyright,              Ccedilla ] };
-    key <AD03> { [ period,        greater,        dead_abovedot,          dead_caron ] };
+    key <AD03> { [ period,        bar,            dead_abovedot,          dead_caron ] };
     key <AD04> { [ p,             P,              odiaeresis,             Odiaeresis ] };
     key <AD05> { [ y,             Y,              udiaeresis,             Udiaeresis ] };
     key <AD06> { [ f,             F,              ediaeresis,             Ediaeresis ] };
